@@ -1,0 +1,24 @@
+.app-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /*grid-gap: 10px;*/
+    grid-template-areas: 'navbar-base navbar-base' 'sidebar-base body-base';
+}
+
+.navbar-base {
+    grid-area: navbar-base;
+    background-color: cadetblue;
+}
+
+.sidebar-base {
+    grid-area: sidebar-base;
+    background-color: green;
+}
+
+.body-base {
+    grid-area: body-base;
+    background-color: yellow;
+}
