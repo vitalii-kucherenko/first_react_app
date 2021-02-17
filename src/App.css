@@ -8,16 +8,6 @@
     grid-template-areas: 'navbar-base navbar-base' 'sidebar-base body-base';
 }
 
-.navbar-base {
-    grid-area: navbar-base;
-    background-color: cadetblue;
-}
-
-.sidebar-base {
-    grid-area: sidebar-base;
-    background-color: green;
-}
-
 .body-base {
     grid-area: body-base;
     background-color: yellow;

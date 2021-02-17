@@ -1,9 +1,10 @@
 import React from 'react'
 import './App.css';
-import Footer from "./footer/footer";
-import Navbar from "./navbar/navbar";
-import Sidebar from "./sidebar/sidebar";
-import Body from "./body/body";
+import Body from "./components/body/body";
+import Navbar from "./components/navbar/navbar";
+import Sidebar from "./components/sidebar/sidebar";
+import Footer from "./components/footer/footer";
+
 const App = () => {
     return (
         <div className='app-wrapper'>

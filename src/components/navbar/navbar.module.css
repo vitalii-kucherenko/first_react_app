@@ -1,0 +1,9 @@
+.navbar_base {
+    grid-area: navbar-base;
+    background-color: cadetblue;
+}
+
+.navbar_base img {
+    width: 100px;
+    height: 60px;
+}

@@ -1,0 +1,8 @@
+.sidebar_base {
+    grid-area: sidebar-base;
+    background-color: green;
+}
+
+.sidebar_item a{
+    color: white;
+}
